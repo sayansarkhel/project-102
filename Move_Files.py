@@ -3,8 +3,8 @@ import shutil
 
 # .exe , .msi,  .gif, .png .jpg, .jpeg, .csv, .pdf , .xls , .xlsx , .ppt , .pptx
 
-from_dir = "C:/Users/ADMIN/Downloads"
-to_dir = "C:/WhiteHatJr/"
+from_dir = "C:/Users/user/Downloads"
+to_dir = "C:/python/"
 
 list_of_files = os.listdir(from_dir)
 print(list_of_files)
